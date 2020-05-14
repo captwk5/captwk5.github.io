@@ -3,12 +3,19 @@ layout: post
 title:  First Posting
 date:   2020-05-14
 image:  images/02.jpg
-tags:   [Development, Python]
+tags:   [Development][Python]
 ---
+STDIN & STDOUT in Python
+
 {% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+
+import sys
+
+# stdin
+lines = sys.stdin.readlines()
+
+# stdout
+hello = "Hello Python!!!"
+sys.stdout.write(hello)
+
 {% endhighlight %}
