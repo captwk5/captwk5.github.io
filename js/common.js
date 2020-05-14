@@ -7,7 +7,7 @@ $(document).ready(function() {
     menuList = $(".main-nav__box"),
     searchOpenIcon = $(".nav__icon-search"),
     searchCloseIcon = $(".search__close"),
-    searchBox = $(".search");
+    searchBox = $(".search").focus();
 
   /* =======================
   // Menu and Search

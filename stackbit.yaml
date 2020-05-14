@@ -52,6 +52,14 @@ models:
         label: Facebook
         description: Your Facebook url.
       - type: string
+        name: github
+        label: Github
+        description: Your Facebook url.
+      - type: string
+        name: linkedin
+        label: LinkedIn
+        description: Your Facebook url.
+      - type: string
         name: dribbble
         label: Dribbble
         description: Your Dribbble url.
