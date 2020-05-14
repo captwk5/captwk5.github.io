@@ -31,3 +31,9 @@ The Force is strong with this one. I have you now. I find your lack of faith dis
 Don't be too proud of this technological terror you've constructed. The ability to destroy a planet is insignificant next to the power of the Force. Your eyes can deceive you. Don't trust them. What?! I don't know what you're talking about. I am a member of the Imperial Senate on a diplomatic mission to Alderaan--
 
 You mean it controls your actions? I have traced the Rebel spies to her. Now she is my only link to finding their secret base. Look, I can take you as far as Anchorhead. You can get a transport there to Mos Eisley or wherever you're going.
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
