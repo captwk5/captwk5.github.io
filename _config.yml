@@ -1,5 +1,5 @@
 title: WKH
-logo: "images/tree.svg" # You can add own logo image.
+logo: "images/pen.svg" # You can add own logo image.
 description: Minimalistic Theme for Jekyll
 baseurl: "" # The subpath of your site, e.g. /blog
 url: "" # The base hostname & protocol for your site, e.g. http://example.com

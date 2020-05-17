@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  In & Out in Python
+title:  Input & Output in Python
 date:   2020-05-17
 image:  images/03.jpg
 tags:   [Development]
 ---
-**STDIN** & **STDOUT** in Python
+**STDIN** & **STDOUT**
 
 {% highlight markdown %}
 
@@ -20,13 +20,12 @@ sys.stdout.write(hello)
 
 {% endhighlight %}
 
-Usage **input** & **print** method
+**input** & **print**
 
 {% highlight markdown %}
 
 i = input('Input someting :')
 # typing something
-
 print(i)
 
 {% endhighlight %}
