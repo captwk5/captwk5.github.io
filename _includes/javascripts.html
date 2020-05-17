@@ -3,7 +3,7 @@
 <script src="{{ site.baseurl }}/js/vendors/simple-jekyll-search.min.js"></script>
 <script>
     SimpleJekyllSearch({
-    searchInput: document.getElementById("js-search-input").focus(),
+    searchInput: document.getElementById("js-search-input"),
     resultsContainer: document.getElementById("js-results-container"),
     json: "{{site.baseurl}}/search.json",
     searchResultTemplate: '<li class="search-results__item  wow fadeIn"><a class="search-results__link" href="{url}">{title}</a></li>',
