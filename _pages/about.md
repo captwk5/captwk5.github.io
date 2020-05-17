@@ -6,16 +6,16 @@ image: images/wkh.jpg
 ---
 
 - Career
-    - Personal Project as Deep Learning Engineer (2020.01 ~ )
-        - OCR using Deep Learning
-        - Data Processing
-
     - Researcher Engineer in Dabeeo (2018.07 ~ , Seoul)
         - Machine Learning, Deep Learning
         - Computer Vision
         - Indoor Positioning System
         - Augmented Reality
         - Sensor Fusion
+
+    - Personal Project as Deep Learning Engineer (2020.01 ~ 2020.03, Seoul)
+        - OCR using Deep Learning
+        - Data Processing
     
     - Junior Software Engineer in SocialApps (2015.11 ~ 2018.06, Seoul)
         - Motion Detection

@@ -1,21 +1,32 @@
 ---
 layout: post
-title:  First Posting
-date:   2020-05-14
-image:  images/02.jpg
+title:  In & Out in Python
+date:   2020-05-17
+image:  images/03.jpg
 tags:   [Development]
 ---
-STDIN & STDOUT in Python
+**STDIN** & **STDOUT** in Python
 
-{% highlight ruby %}
+{% highlight markdown %}
 
 import sys
 
-# stdin
+# STDIN
 lines = sys.stdin.readlines()
 
-# stdout
+# STDOUT
 hello = "Hello Python!!!"
 sys.stdout.write(hello)
+
+{% endhighlight %}
+
+Usage **input** & **print** method
+
+{% highlight markdown %}
+
+i = input('Input someting :')
+# typing something
+
+print(i)
 
 {% endhighlight %}
