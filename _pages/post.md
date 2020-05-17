@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Test Posting
-permalink: /styleguide/
+permalink: /posts/
 image: images/13.jpg
 ---
 
