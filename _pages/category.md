@@ -4,31 +4,27 @@ title: Category
 permalink: /category/
 ---
 
-<a href="https://captwk5.github.io/">BLOG1</a>
+<ul class="tag-cloud">
+{% for tag in site.tags %}
+  <span style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%">
+    <a href="#{{ tag | first | slugize }}">
+      {{ tag | first }}
+    </a> &nbsp;&nbsp;
+  </span>
+{% endfor %}
+</ul>
 
-<div class="container">
-  <a href="https://captwk5.github.io/">BLOG2</a>
-  <div class="row">
-		<div class="col col-12">
-			<div class="post__head wow fadeInUp">
-				<h1 class="post__title">{{ page.title | escape }}</h1>
-				<div class="post-info">
-					{% if page.tags.size >= 1 %}
-					<span class="post-tags">
-						posted in
-						{% for tag in page.tags %}
-							<a href="{{ site.baseurl }}/tag/{{ tag }}" class="post-tags__tag">{{ tag }}</a>
-						{% endfor %}
-					</span>
-					{% endif %}
-					<span class="post__meta">
-						<span class="post__date"> on <a href="{{post.url | prepend: site.baseurl}}">
-							<time datetime="{{ page.date | date_to_xmlschema }}">{{page.date | date: '%b %d, %Y'}}</time></a>
-						</span>
-						<span class="article__author"> by <a href="{{site.baseurl}}/about/">{{ site.author.name }}</a></span>
-					</span>
-				</div>
-			</div>
-		</div>
-	</div>
+<div id="archives">
+{% for tag in site.tags %}
+  <div class="archive-group">
+    {% capture tag_name %}{{ tag | first }}{% endcapture %}
+    <h3 id="#{{ tag_name | slugize }}">{{ tag_name }}</h3>
+    <a name="{{ tag_name | slugize }}"></a>
+    {% for post in site.tags[tag_name] %}
+    <article class="archive-item">
+      <h4><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h4>
+    </article>
+    {% endfor %}
+  </div>
+{% endfor %}
 </div>
