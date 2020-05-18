@@ -4,4 +4,4 @@ title: Category
 permalink: /category/
 ---
 
-<a href="Hi">{{ page.tag }}</a>
+<a href="https://captwk5.github.io/">BLOG</a>
