@@ -11,9 +11,9 @@ permalink: /tag/
 
 <div id="tags">
   <ul class="tag-box inline">
-  {% for tag in tag_words %}
-    <li><a href="#{{ tag | cgi_escape }}">{{ tag }} <span>{{ site.tags[tag] | size }}</span></a></li>
-  {% endfor %}
+    {% for tag in tag_words %}
+      <li><a href="#{{ tag | cgi_escape }}">{{ tag }} <span>{{ site.tags[tag] | size }}</span></a></li>
+    {% endfor %}
   </ul>
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
