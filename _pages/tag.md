@@ -10,9 +10,9 @@ permalink: /tag/
 <!-- tag_words: {{ tag_words }} -->
 
 <div id="tags">
-  <ul class="tag-box inline">
+  <ul class="tag-box inline" margin-bottom=10px>
     {% for tag in tag_words %}
-      <a href="#{{ tag | cgi_escape }}" style="background-color:#eaeaea">#{{ tag }}</a>
+      <a href="#{{ tag | cgi_escape }}" style="background-color:#eaeaea">#{{ tag }} (<span>{{ site.tags[tag] | size }}</span>)</a>
     {% endfor %}
   </ul>
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
