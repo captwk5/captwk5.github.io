@@ -24,7 +24,7 @@ permalink: /tag/
       <li itemscope>
         <span class="entry-date">
           <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time>
-        </span> &raquo; {% if post.category == "speaking" %}<i class="fa fa-microphone"></i> {% endif %}<a href="{{ post.url }}" style="color:blue">{{ post.title }}</a>
+        </span> &raquo; <a href="{{ post.url }}" style="color:blue">{{ post.title }}</a>
       </li>
     {% endif %}{% endfor %}
   </ul>
