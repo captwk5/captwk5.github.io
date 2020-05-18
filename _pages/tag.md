@@ -10,12 +10,14 @@ permalink: /tag/
 <!-- tag_words: {{ tag_words }} -->
 
 <div id="tags">
-  <ol class="tag-box inline">
+  <ul class="tag-box inline">
     {% for tag in tag_words %}
-      <li><a href="#{{ tag | cgi_escape }}">{{ tag }} <span>{{ site.tags[tag] | size }}</span></a></li>
+      <li>
+        <a href="#{tag}">{{ tag }} <span>{{ site.tags[tag] | size }}</span></a>
+      </li>
     {% endfor %}
-  </ol>
-  <!-- {% for item in (0..site.tags.size) %}{% unless forloop.last %}
+  </ul>
+  {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
   <h3 id="{{ this_word | cgi_escape }}">{{ this_word }}</h3>
   <ul class="posts">
@@ -27,7 +29,7 @@ permalink: /tag/
       </li>
     {% endif %}{% endfor %}
   </ul>
-  {% endunless %}{% endfor %} -->
+  {% endunless %}{% endfor %}
 </div>
 
 <!-- <ul class="tag-cloud">
