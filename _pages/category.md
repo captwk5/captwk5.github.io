@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Test Posting
-permalink: /posts/
+title: Category
+permalink: /category/
 image: images/13.jpg
 ---
 
