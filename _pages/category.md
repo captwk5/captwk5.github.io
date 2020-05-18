@@ -4,12 +4,8 @@ title: Category
 permalink: /category/
 ---
 
-<a href="https://captwk5.github.io/">BLOG</a>
+<a href="https://captwk5.github.io/">BLOG1</a>
 
-{% if page.tags.size >= 1 %}
-  <span class="post-tags">
-    {% for tag in page.tags %}
-      <a href="{{ site.baseurl }}/tag/{{ tag }}" class="post-tags__tag">{{ tag }}</a>
-    {% endfor %}
-  </span>
-{% endif %}
+<div class="container">
+  <a href="https://captwk5.github.io/">BLOG2</a>
+</div>
