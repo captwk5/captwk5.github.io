@@ -10,7 +10,7 @@ permalink: /tag/
 <!-- tag_words: {{ tag_words }} -->
 
 <div id="tags">
-  <div class="tag-box inline" border-bottom="5px">
+  <div class="tag-box inline" style="border-bottom:5px solid black">
     {% for tag in tag_words %}
       <a href="#{{ tag | cgi_escape }}" style="background-color:#eaeaea">#{{ tag }} (<span>{{ site.tags[tag] | size }}</span>)</a>
     {% endfor %}
