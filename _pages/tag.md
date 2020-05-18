@@ -9,12 +9,13 @@ permalink: /tag/
 {% assign tag_words = site_tags | split:',' | sort %}
 <!-- tag_words: {{ tag_words }} -->
 
+<ul class="tag-box inline">
+  {% for tag in tag_words %}
+    <a href="#{{ tag | cgi_escape }}" style="background-color:#eaeaea">#{{ tag }} (<span>{{ site.tags[tag] | size }}</span>)</a>
+  {% endfor %}
+</ul>&nbsp;&nbsp;
+
 <div id="tags">
-  <div class="tag-box inline" style="border-bottom:1px solid black">
-    {% for tag in tag_words %}
-      <a href="#{{ tag | cgi_escape }}" style="background-color:#eaeaea" margin-bottom="10px">#{{ tag }} (<span>{{ site.tags[tag] | size }}</span>)</a>
-    {% endfor %}
-  </div>
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
   <h3 id="{{ this_word | cgi_escape }}">{{ this_word }}</h3>
