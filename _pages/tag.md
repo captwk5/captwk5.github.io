@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Category
-permalink: /category/
+title: Tag
+permalink: /tag/
 ---
 
 <ul class="tag-cloud">
@@ -21,9 +21,9 @@ permalink: /category/
     <h3 id="#{{ tag_name | slugize }}">{{ tag_name }}</h3>
     <a name="{{ tag_name | slugize }}"></a>
     {% for post in site.tags[tag_name] %}
-    <article class="archive-item">
-      <h4><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h4>
-    </article>
+      <article class="archive-item">
+        <h5><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h5>
+      </article>
     {% endfor %}
   </div>
 {% endfor %}
