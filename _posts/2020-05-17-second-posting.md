@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  Internal & External function in Python
+title:  Internal & External function
 date:   2020-05-17
 image:  images/08.jpg
-tags:   [Development, Python, os]
+tags:   [Development_Python]
 ---
 
 **내장함수**
