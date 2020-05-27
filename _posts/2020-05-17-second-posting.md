@@ -7,7 +7,6 @@ tags:   [Development_Python]
 ---
 
 **내장함수**
-기본
 
 **외장함수**
 1. os

@@ -3,7 +3,7 @@ layout: post
 title:  Input,Output and Variable
 date:   2020-05-17
 image:  images/03.jpg
-tags:   [Development_Python]
+tags:   [Programming_Python]
 ---
 **STDIN** & **STDOUT**
 

@@ -6,7 +6,13 @@ image:  images/08.jpg
 tags:   [Development_Android]
 ---
 
-1. bit.ly/2GzYimK -> SDK Tools 25.2.5 Download (기존 sdk tools 와 잠시 변경)
+안드로이드에서 OpenCV를 사용할 때 extra버젼을 사용하고 싶을 때가 있다.
+
+아래와 같은 순서로 진행하면 된다(MacOS 기준)
+
+참고 : [Android 용으로 OpenCV 4.1.1 빌드하는 방법 (Build OpenCV 4.1.1 for android )](https://webnautes.tistory.com/1268) 
+
+1. bit.ly/2GzYimK -> SDK Tools 25.2.5 Download(기존 sdk tools 와 잠시 변경)
 2. OpenCV 4.1.1 source code download
 3. OpenCV_contrib 4.1.1 source code download
 4. ninja install (brew)
