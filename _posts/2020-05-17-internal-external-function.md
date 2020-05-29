@@ -3,10 +3,11 @@ layout: post
 title:  Internal & External function
 date:   2020-05-17
 image:  images/08.jpg
-tags:   [Development_Python]
+tags:   [Programming_Python]
 ---
 
 **내장함수**
+기본 파이썬에 있는 함수들
 
 **외장함수**
 1. os
