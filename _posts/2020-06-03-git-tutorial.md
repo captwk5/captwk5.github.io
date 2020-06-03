@@ -2,7 +2,7 @@
 layout: post
 title:  Git Enviroment
 date:   2020-06-03
-image:  images/git_image.jpg
+image:  images/03.jpg
 tags:   [Development_Git]
 ---
 
