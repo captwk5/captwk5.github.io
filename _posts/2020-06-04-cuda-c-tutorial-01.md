@@ -11,3 +11,5 @@ tags:   [Programming_GPU]
 이중 가장 보편적인 CUDA를 좀 익혀보려 한다. 물론 NVIDIA의 그래픽카드 위에서만 동작한다.
 
 기본적인 CUDA C Programming을 적어보려 한다.
+
+1. Host & Device

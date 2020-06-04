@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Import OpenCV Extra SDK
-date:   2020-05-19
+date:   2020-06-01
 image:  images/08.jpg
 tags:   [Development_Android]
 ---

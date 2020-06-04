@@ -19,3 +19,5 @@ tags:   [Development_Git]
 ~ git init
 {% endhighlight %}
 해당 프로젝트 경로에서 위 명령을 통해 프로젝트를 관리할 수 있는 뼈대를 만든다.(.git 숨김파일 생성)
+
+2. Tracked & UnTracked
