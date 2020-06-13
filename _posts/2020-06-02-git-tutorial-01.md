@@ -21,3 +21,18 @@ tags:   [Development_Git]
 해당 프로젝트 경로에서 위 명령을 통해 프로젝트를 관리할 수 있는 뼈대를 만든다.(.git 숨김파일 생성)
 
 2. Tracked & UnTracked
+저장소를 만들고 나면 같은 디렉토리에는 Tracked 와 UnTracked 로 나누어진다. 말 그대로 관리 대상과 비대상으로 나누어지는 것이다.
+{% highlight markdown %}
+~ git add file
+{% endhighlight %}
+위 명령을 통해 file을 Tracked 상태로 만들 수 있다.
+Tracked 상태로 들어오면 UnModified, Modified, Staged 세 가지의 상태가 있는데
+- UnModified는 관리대상이지만 수정이 하나도 안된 파일
+- Modified는 관리대상이자 수정된 파일
+- Staged는 수정되고 add를 통해 commit할 준비가 된 상태
+로 정리할 수 있다.
+
+{% highlight markdown %}
+~ git status
+{% endhighlight %}
+그리고 이러한 상태들은 위 명령을 통해 확인할 수 있다.
