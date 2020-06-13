@@ -13,3 +13,5 @@ tags:   [Programming_GPU]
 기본적인 CUDA C Programming을 적어보려 한다.
 
 1. Host & Device
+CUDA에서는 CPU와 GPU를 분리해서 HOST(CPU), DEVICE(GPU)로 부른다.
+데이터는 기본적으로 CPU에 있기 때문에 GPU에 요청하여 메모리를 할당하는 것이다.
