@@ -6,8 +6,8 @@ url: "" # The base hostname & protocol for your site, e.g. http://example.com
 
 # Author Settings
 author: Woonuks
-name: Wonki Owen Hong
-bio: Hi, my name is Wonki Owen Hong. Thank you for visiting my note blog.
+name: Wonki Hong
+bio: Hi, my name is Wonki Hong(Eng. Name Owen Hong). Thank you for visiting my note.
 
 # Contact links
 # twitter: https://twitter.com/ # Add your Twitter handle
@@ -27,7 +27,7 @@ hero-image: images/background.jpg # Add background image in section hero
 footer-image: images/background.jpg # Add background image in footer
 
 # Comment Section (Disqus)
-disqus-identifier: wonki-owen-hong # Add your shortname for Disqus Comment. For example mr-brown
+disqus-identifier: owen-hong # Add your shortname for Disqus Comment. For example mr-brown
 
 # Google Analytics
 google-analytics: "" # Add your identifier. For example UA-99631805-1.
