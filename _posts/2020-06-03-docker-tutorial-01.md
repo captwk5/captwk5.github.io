@@ -18,7 +18,7 @@ tags:   [Development_Docker]
 
 1. 이미지 & 컨테이너
 도커에는 이미지와 컨테이너라는 개념이 있다. 막상 사용해보면 어렵지 않은데 처음엔 개념이 헷갈렸다.
-이미지는 시스템과 서비스에 환경을 구성할 수 있는 최소 단위로 ubuntu, centos등 리눅스 환경을 구성할 수 있고 이러한 리눅스 환경에 특정 프레임웍까지 얹은 환경까지도 포함될 수 있다.
+이미지는 리눅스 배포판 환경을 구성할 수 있는 최소 단위로 ubuntu, centos등 특정 프레임워크 및 라이브러리까지 얹은 환경까지도 포함될 수 있다.
 
 {% highlight markdown %}
 ~ docker search ${image}
@@ -38,3 +38,5 @@ tags:   [Development_Docker]
 
 이렇게 받은 이미지들은 위 명령어로 볼 수 있다.
 ![]({{site.baseurl}}/post_images/docker_images.jpg)
+
+그리고 이러한 이미지를 실행시켜 컨테이너로 만들게 되는데
