@@ -20,7 +20,7 @@ email: captwk5@gmail.com # Add your Email address
 # Hero Section
 hero: true # To enable the section hero, use the value true. To turn off use the value false.
 hero-title: Simple Note # Add your hero title
-hero-subtitle: For My R&D # Add your hero subtitle
+hero-subtitle: For My Study # Add your hero subtitle
 hero-image: images/background.jpg # Add background image in section hero
 
 # Footer
