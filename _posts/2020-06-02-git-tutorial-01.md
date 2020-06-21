@@ -41,3 +41,5 @@ Tracked 상태로 들어오면 Unmodified, Modified, Staged 세 가지의 상태
 파일을 add 하고 Staged가 된 상태에서 파일이 변경 되었으면 Modified고 변경이 없으면 Unmodified라고 했다.
 하지만 보통은 add를 하기 전에 모든 작업을 하고 add를 하게 된다. 그렇게 Staged상태로 해놓고 난 다음에 commit을 하여
 Unstaged로 바꾸게 되는 것이다. add를 하지 않은 파일은 Staged상태로 바꾸지도 않고 commit이 되지도 않는다. 자동적으로 추적되고 반영된다.
+
+4. 
