@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  Cuda C Programming
+title:  Cuda Programming
 date:   2020-06-03
 image:  images/03.jpg
-tags:   [Programming_GPU]
+tags:   [Programming_Cuda]
 ---
 
 딥러닝을 하면서 GPU를 사용하지 않을 수는 없다. 요새 GPU 컴퓨팅을 그래픽스, 이미지 연산 뿐 아니라 응요 프로그램 계산에서도 사용할 수 있도록하는 GPGPU 기술도 많이 있다.
@@ -15,3 +15,13 @@ tags:   [Programming_GPU]
 1. Host & Device
 CUDA에서는 CPU와 GPU를 분리해서 HOST(CPU), DEVICE(GPU)로 부른다.
 데이터는 기본적으로 CPU에 있기 때문에 GPU에 요청하여 메모리를 할당하는 것이다.
+CPU와 GPU는 하드웨어적 구성 자체가 다르기 때문에 기본적인 개념만 이해하고 돌아가는 원리만 안다면
+기본적인 연산을 할 수 있을 것이다.
+
+![]({{site.baseurl}}/post_images/cpugpu.jpg)
+
+그래서 기본적인 덧셈 연산과 컨볼루션연산을 해보려고 한다.
+
+일단 Nvidia 드라이버를 설치하고 난 후 컴파일러를 nvcc로 사용하여 빌드하고 확장자는 .cu 다.
+
+- 작성중

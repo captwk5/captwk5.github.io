@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Docker Basic
+title:  Docker Tutorial Basic
 date:   2020-06-03
 image:  images/02.jpg
 tags:   [Development_Docker]
@@ -61,3 +61,5 @@ tags:   [Development_Docker]
 하지만 개발 하다보면 여러개의 이미지를 사용하고 싶을 수도 있다. 가령 DB를 사용할 때 postgresql을 백그라운드에서 사용하고 Tensorflow 프레임워크를 이용하여 개발을 하려고 하면 postgresql 이미지를 다운받고 엔비디아 드라이버가 설치 되어 있고 Tensorflow가 적절히 설치 된 이미지도 다운 받아 두가지를 동시에 사용해야 할 일이 있다.
 이런 경우 docker-compose라는걸 사용 하면 된다.
 여러개의 이미지를 빌드 및 실행등을 통합하여 관리 할 수 있다.
+
+- 작성중
