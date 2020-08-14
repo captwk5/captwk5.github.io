@@ -95,10 +95,10 @@ models:
         name: footer-image
         label: Footer image
         description: The background image of the footer section.
-      - type: string
-        name: disqus-identifier
-        label: Disqus shortname
-        description: Your shortname for Disqus Comments. For example, mr-brown.
+      # - type: string
+      #   name: disqus-identifier
+      #   label: Disqus shortname
+      #   description: Your shortname for Disqus Comments. For example, mr-brown.
       - type: string
         name: google-analytics
         label: Google Analytics
