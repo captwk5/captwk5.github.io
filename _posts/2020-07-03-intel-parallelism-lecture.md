@@ -3,7 +3,7 @@ layout: post
 title:  Intel Parallelism Lecture
 date:   2020-07-03
 image:  images/02.jpg
-tags:   [Coursera_Parallelism]
+tags:   [Coursera]
 ---
 
 부족한 지식을 채우기 위해 Coursera같은 MOOC을 자주 이요한다.

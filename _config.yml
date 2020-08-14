@@ -1,4 +1,4 @@
-title: Woonuks-Note
+title: H.wkist-Note
 logo: "images/pen.png" # You can add own logo image.
 description: Minimalistic Theme for Jekyll
 baseurl: "" # The subpath of your site, e.g. /blog
@@ -6,8 +6,8 @@ url: "" # The base hostname & protocol for your site, e.g. http://example.com
 
 # Author Settings
 author: Woonuks
-name: Wonki Owen Hong
-bio: Hi, My name is Wonki Hong(English Name is Owen Hong). Thank you for visiting my blog.
+name: Wonki Rowan Hong
+bio: Hi, My name is Wonki Hong(English Name is Rowan Hong). Thank you for visiting my blog.
 
 # Contact links
 # twitter: https://twitter.com/ # Add your Twitter handle
@@ -20,14 +20,14 @@ email: captwk5@gmail.com # Add your Email address
 # Hero Section
 hero: true # To enable the section hero, use the value true. To turn off use the value false.
 hero-title: Simple Note # Add your hero title
-hero-subtitle: For My Study # Add your hero subtitle
+hero-subtitle: for me # Add your hero subtitle
 hero-image: images/background.jpg # Add background image in section hero
 
 # Footer
 footer-image: images/background.jpg # Add background image in footer
 
 # Comment Section (Disqus)
-disqus-identifier: owen-hong # Add your shortname for Disqus Comment. For example mr-brown
+disqus-identifier: rowan-hong # Add your shortname for Disqus Comment. For example mr-brown
 
 # Google Analytics
 google-analytics: "" # Add your identifier. For example UA-99631805-1.
