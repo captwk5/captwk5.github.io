@@ -14,7 +14,7 @@ tags:   [Development_Git]
                             - 위키피디아 -
 {% endhighlight %}
 
-#### Git 저장소(Repository)
+#### Local Repository
 {% highlight markdown %}
 ~ git init
 {% endhighlight %}
@@ -28,9 +28,9 @@ tags:   [Development_Git]
 {% endhighlight %}
 위 명령을 통해 file을 Tracked 상태로 만들 수 있다.
 Tracked 상태로 들어오면 Unmodified, Modified, Staged 세 가지의 상태가 있다.
-* Unmodified는 관리대상이지만 수정이 하나도 안된 파일
-* Modified는 관리대상이자 수정된 파일
-* Staged는 수정되고 add를 통해 commit할 준비가 된 상태
+* Unmodified : 관리대상이지만 수정이 하나도 안된 파일
+* Modified : 관리대상이자 수정된 파일
+* Staged : 수정되고 add를 통해 commit할 준비가 된 상태
 
 {% highlight markdown %}
 ~ git status
@@ -41,5 +41,21 @@ Tracked 상태로 들어오면 Unmodified, Modified, Staged 세 가지의 상태
 파일을 add 하고 Staged가 된 상태에서 파일이 변경 되었으면 Modified고 변경이 없으면 Unmodified라고 했다.
 하지만 보통은 add를 하기 전에 모든 작업을 하고 add를 하게 된다. 그렇게 Staged상태로 해놓고 난 다음에 commit을 하여
 Unstaged로 바꾸게 되는 것이다. add를 하지 않은 파일은 Staged상태로 바꾸지도 않고 commit이 되지도 않는다. 자동적으로 추적되고 반영된다.
+
+#### Logging
+변경 되거나 수정된 내용을 저장소에 기록하는 작업을 커밋이라고 한다.
+그리고 커밋은 시간순으로 저장 되고 사전에 add를 한 파일에 한해서만 커밋된다. 여러번 커밋 할 수 있기에 각 커밋에 대한 comment를 적을 수 있다.
+{% highlight markdown %}
+~ git commit -m "Comment"
+{% endhighlight %}
+
+{% highlight markdown %}
+~ git log
+{% endhighlight %}
+
+이렇게 커밋하고 log를 통해 커밋에 대한 로그를 확인 할 수 있다.
+
+#### Remote Repository
+각 로컬에서 작업된 내용을 원격 저장소에 저장을 해야한다.
 
 - 작성중
