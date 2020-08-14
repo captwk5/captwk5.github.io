@@ -6,7 +6,7 @@ image:  images/02.jpg
 tags:   [Coursera]
 ---
 
-부족한 지식을 채우기 위해 Coursera같은 MOOC을 자주 이요한다.
+부족한 지식을 채우기 위해 Coursera, Udacity같은 MOOC을 자주 이용한다.
 
 최근 GPU프로그래밍을 공부하고 있고 딥러닝 머신러닝 관련 수업을 듣고 최적화에 대해 고민하다가
 
