@@ -12,7 +12,7 @@ tags:   [Programming_Cuda]
 
 기본적인 CUDA C 프로그래밍 및 Convolution 연산을 해보았다.
 
-[CUDA Example](https://github.com/captwk5/cuda_ex)
+CUDA Example : https://github.com/captwk5/cuda_ex
 
 #### Host & Device
 CUDA에서는 CPU와 GPU를 분리해서 HOST(CPU), DEVICE(GPU)로 부른다.
@@ -26,11 +26,11 @@ CPU와 GPU는 하드웨어적 구성 자체가 다르기 때문에 기본적인 
 
 일단 Nvidia 드라이버를 설치하고 난 후 컴파일러를 nvcc로 사용하여 빌드하고 확장자는 .cu 다.
 
-nvcc로 빌드를 하게 되면 cuda api를 컴파일 할 수 있게 되고 [__host__] , [__global__] 등의 키워드를 사용할 수 있게 된다.
+nvcc로 빌드를 하게 되면 cuda api를 컴파일 할 수 있게 되고 __host_ , __global_ 등의 키워드를 사용할 수 있게 된다.
 
-간단하게 설명하면 __host__ 는 프로그램을 실행하는 장치 즉, cpu상에서 작동하게 하는 키워드이고 __global__, __device__ 들은 gpu위에서 작동하게 하는 키워드 이다.
+간단하게 설명하면 __host_ 는 프로그램을 실행하는 장치 즉, cpu상에서 작동하게 하는 키워드이고 __global_, __device_들은 gpu위에서 작동하게 하는 키워드 이다.
 
-__global__ 키워드를를 사용하여 함수를 호출 하려면 되면 <<<>>> 를 사용하여야 한다.
+__global_ 키워드를를 사용하여 함수를 호출 하려면 되면 <<<>>> 를 사용하여야 한다.
 
 그리고 이렇게 호출 된 함수는 기본적으로 멀티스레딩으로 작동하게 된다.
 
