@@ -27,10 +27,7 @@ CPU와 GPU는 하드웨어적 구성 자체가 다르기 때문에 기본적인 
 일단 Nvidia 드라이버를 설치하고 난 후 컴파일러를 nvcc로 사용하여 빌드하고 확장자는 .cu 다.
 
 nvcc로 빌드를 하게 되면 cuda api를 컴파일 할 수 있게 되고
-{% highlight markdown %}
-__host__
-{% endhighlight %}
-, ___global___ 등의 키워드를 사용할 수 있게 된다.
+{% highlight markdown %}__host__ , ___global___{% endhighlight %}등의 키워드를 사용할 수 있게 된다.
 
 간단하게 설명하면 __host_ 는 프로그램을 실행하는 장치 즉, cpu상에서 작동하게 하는 키워드이고 __global_, __device_들은 gpu위에서 작동하게 하는 키워드 이다.
 
