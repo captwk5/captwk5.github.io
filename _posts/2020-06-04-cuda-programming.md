@@ -10,9 +10,11 @@ tags:   [Programming_Cuda]
 대표적인게 NVIDIA의 CUDA, KronosGroup의 OpenCL 등이 있다.
 이중 가장 보편적인 CUDA를 좀 익혀보려 한다. 물론 NVIDIA의 그래픽카드 위에서만 동작한다.
 
-기본적인 CUDA C Programming을 적어보려 한다.
+기본적인 CUDA C 프로그래밍 및 Convolution 연산을 해보았다.
 
-1. Host & Device
+[CUDA Example](https://github.com/captwk5/cuda_ex)
+
+#### Host & Device
 CUDA에서는 CPU와 GPU를 분리해서 HOST(CPU), DEVICE(GPU)로 부른다.
 데이터는 기본적으로 CPU에 있기 때문에 GPU에 요청하여 메모리를 할당하는 것이다.
 CPU와 GPU는 하드웨어적 구성 자체가 다르기 때문에 기본적인 개념만 이해하고 돌아가는 원리만 안다면
@@ -24,7 +26,7 @@ CPU와 GPU는 하드웨어적 구성 자체가 다르기 때문에 기본적인 
 
 일단 Nvidia 드라이버를 설치하고 난 후 컴파일러를 nvcc로 사용하여 빌드하고 확장자는 .cu 다.
 
-nvcc로 빌드를 하게 되면 cuda api를 컴파일 할 수 있게 되고 __host__ , __global__ 등의 키워드를 사용할 수 있게 된다.
+nvcc로 빌드를 하게 되면 cuda api를 컴파일 할 수 있게 되고 [__host__] , [__global__] 등의 키워드를 사용할 수 있게 된다.
 
 간단하게 설명하면 __host__ 는 프로그램을 실행하는 장치 즉, cpu상에서 작동하게 하는 키워드이고 __global__, __device__ 들은 gpu위에서 작동하게 하는 키워드 이다.
 
