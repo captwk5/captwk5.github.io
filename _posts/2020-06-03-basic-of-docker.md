@@ -22,21 +22,11 @@ tags:   [Development_Docker]
 
 {% highlight markdown %}
 ~ docker search ${image}
-{% endhighlight %}
-
-원하는 이미지를 위 명령어로 검색할 수 있고 
-
-{% highlight markdown %}
 ~ docker pull ${image}
-{% endhighlight %}
-
-원하는 이미지를 받을 수 있다.
-
-{% highlight markdown %}
 ~ docker images
 {% endhighlight %}
 
-이렇게 받은 이미지들은 위 명령어로 볼 수 있다.
+받을 수 있는 이미지를 검색하고 원하는 이미지를 받을 수 있꼬 받은 이미지들은 위 명령어로 볼 수 있다.
 
 ![]({{site.baseurl}}/post_images/docker_images.jpg)
 
@@ -44,22 +34,31 @@ tags:   [Development_Docker]
 그러면 컨테이너에 대해 조금 알아보기로 하자.
 
 {% highlight markdown %}
-~ docker ps
+~ docker run -i -t -v /docker_workspace/:/workspace --name test_docker ubuntu:18.04 /bin/bash
 {% endhighlight %}
 
-실행중인 컨테이너의 목록이 나온다.
+위와 같이 실행하면 우분투 18.04 버전의 test_docker 라는 이름을 가진 컨테이너가 하나 생성 된다.
+옵션들을 하나하나 살펴 보면
+* -i : 표준 입력을 유지한다.
+* -t : pseudo-tty를 할당 한다.(tty는 리눅스 환경에서 일반적인 콘솔의 한 종류)
+* -v : 로컬 환경의 디렉토리를 도커위의 디렉토리와 Binding.(${로컬 디렉토리}:${도커 디렉토리})
+* -n : 컨테이너의 이름
+
+이렇게 컨테이너를 생성하고 컨테이너를 실행시면 작업할 수 있는 기본적인 환경이 생성 된다.
+
+{% highlight markdown %}
+~ docker ps -a
+~ docker start [Container Name]
+~ docker attach [Container Name]
+{% endhighlight %}
+
+![]({{site.baseurl}}/post_images/docker_container.jpg)
+
+실행중인 컨테이너의 목록이 나오고 쉘이 우분투 쉘로 변한 것을 볼 수 있다.
+
 이미지를 실행하여 컨테이너를 만들게 되면 그 안에서 많은 작업들이 이루어질 수 있다. 실제로 소스를 빌드하고 서버가 돌아가기도 한다.
 도커 이미지가 커다란 뼈대를 잡고 있으면 컨테이너는 그 이미지 위에서 변경될 수 있는 정보들을 사용하여 개발/운영을 하는 것으로 보면 될 것 같다.
 
 조금 더 적어보면 개발을 하다보면 OS버전, Framework버전에 영향을 받게 된다. 그리고 이러한 변수들은 에러를 발생시키기도 하고 복잡하게 얽혀있는 프로그램에
 충돌이 일어나게 하기도 한다. 하지만 이미지를 통해 특정 버전의 OS, Framework등으로 뼈대를 잡아놓고 그위에서 빌드하고 배포하고 또 그렇게 만든 컨테이너를
 다시 이미지로 만들어 다시 개발을 하고 운영을 하고 할 수 있는 것이다. 즉 의존성에 대하여 관리가 더 엄격해질 수 있다는 것이다. 그리고 프로젝트에 포함되는 코드, 환경, 라이브러리등이 모두 이미지화가 될 수 있다.
-
-#### Dockerfile & docker-compose
-
-도커로 이미지를 만들고 컨테이너를 실행시키며 작업을 할 수 있다.
-하지만 개발 하다보면 여러개의 이미지를 사용하고 싶을 수도 있다. 가령 DB를 사용할 때 postgresql을 백그라운드에서 사용하고 Tensorflow 프레임워크를 이용하여 개발을 하려고 하면 postgresql 이미지를 다운받고 엔비디아 드라이버가 설치 되어 있고 Tensorflow가 적절히 설치 된 이미지도 다운 받아 두가지를 동시에 사용해야 할 일이 있다.
-이런 경우 docker-compose라는걸 사용 하면 된다.
-여러개의 이미지를 빌드 및 실행등을 통합하여 관리 할 수 있다.
-
-- 작성중

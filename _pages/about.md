@@ -6,19 +6,17 @@ image: images/wkh.jpg
 ---
 
 - Career
-    - Researcher Engineer in Dabeeo (2018.07 ~ , Seoul)
+    - Software Engineer in (2020.08 ~ )
+    
+    - Software Engineer in Dabeeo (2018.07 ~ 2020.07, Seoul)
         - Federated Learning on Device
         - Machine Learning, Deep Learning
         - Computer Vision
         - Indoor Positioning System
         - Augmented Reality
         - Sensor Fusion
-
-    - Personal Project as Deep Learning Engineer (2020.01 ~ 2020.03, Seoul)
-        - OCR using Deep Learning
-        - Data Processing
     
-    - Junior Software Engineer in SocialApps (2015.11 ~ 2018.06, Seoul)
+    - Software Engineer in SocialApps (2015.11 ~ 2018.06, Seoul)
         - Motion Detection
         - Sensor Data Analytics
         - Android Development
@@ -33,12 +31,5 @@ image: images/wkh.jpg
         - Android Open API Expert Course
 
 <p></p>
-- Related Link
-    - Youtube
-        - <p class="view"><a href="https://youtu.be/f-VjvKtqr0g" style="color:blue">Indoor Positioning using Deep Learning and AR</a></p>
-        - <p class="view"><a href="https://youtu.be/j8RlDm9CFI4" style="color:blue">Distance Estimation using Deep Learning and Camera Vision</a></p>
-        - <p class="view"><a href="https://youtu.be/CpVjXxawqZQ" style="color:blue">3D Contents Mapping using Deep Learning and AR</a></p>
-    - Coursera
-        - <p class="view"><a href="https://coursera.org/share/cb5e5be4d18481fd360f88a47e06beb4" style="color:blue">An Introduction to Practical Deep Learning</a> by Intel</p>
-        - <p class="view"><a href="https://www.coursera.org/account/accomplishments/verify/U87RHNT4ECAF" style="color:blue">Introduction to Machine Learning</a> by Duke University</p>
-        - <p class="view"><a href="https://www.coursera.org/account/accomplishments/verify/N8R62C4UTA3D" style="color:blue">Data Science Math Skills</a> by Duke University</p>
+
+- <p class="view"><a href="https://www.linkedin.com/in/wonki-hong-a90660191/" style="color:blue">LinkedIn</a></p> 
