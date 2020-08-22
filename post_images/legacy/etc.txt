@@ -1,3 +1,12 @@
+
+- Education
+    - Korea University Sejong Campus (2008.03 ~ 2016.02, Sejong/Seoul)
+        - Bachelor of Science in Information and Mathematics
+        - Bachelor of Science in Brain and Cognitive Sciences
+    
+    - Samsung SDS Multi Campus (2015.07 ~ 2015.10, Seoul)
+        - Android Open API Expert Course
+
 - Youtube
     - <p class="view"><a href="https://youtu.be/f-VjvKtqr0g" style="color:blue">Indoor Positioning using Deep Learning and AR</a></p>
     - <p class="view"><a href="https://youtu.be/j8RlDm9CFI4" style="color:blue">Distance Estimation using Deep Learning and Camera Vision</a></p>
